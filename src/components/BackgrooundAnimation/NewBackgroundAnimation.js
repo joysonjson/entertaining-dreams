@@ -1,13 +1,15 @@
 import React from "react";
 
-const BackgroundAnimation = () => (
-  <div>
-    <svg
-      className="BgAnimation__svg"
-      viewBox="0 0 602 602"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+const NewBackgroundAnimation = () => (
+  <div
+    style={{
+      position: "absolute",
+      width: "100%",
+      height: "auto",
+      right: "-25%",
+    }}
+  >
+    <svg viewBox="0 0 602 602" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g opacity="0.15">
         <path
           fillRule="evenodd"
@@ -362,4 +364,4 @@ const BackgroundAnimation = () => (
   </div>
 );
 
-export default BackgroundAnimation;
+export default NewBackgroundAnimation;
