@@ -35,22 +35,6 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
       </LinkList>
-      <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
-        </CompanyContainer>
-        <SocialContainer>
-          <SocialIcons target="_blank" href="https://google.com">
-            <AiFillFacebook size="3rem" />
-          </SocialIcons>
-          <SocialIcons target="_blank" href="https://google.com">
-            <AiFillYoutube size="3rem" />
-          </SocialIcons>
-          <SocialIcons target="_blank" href="https://google.com">
-            <AiFillInstagram size="3rem" />
-          </SocialIcons>
-        </SocialContainer>
-      </SocialIconsContainer>
     </FooterWrapper>
   );
 };
